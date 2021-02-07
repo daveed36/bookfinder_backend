@@ -84,3 +84,4 @@ production:
   database: bookfinder_backend_production
   username: bookfinder_backend
   password: <%= ENV['BOOKFINDER_BACKEND_DATABASE_PASSWORD'] %>
+  adatapter: 'postresql'
